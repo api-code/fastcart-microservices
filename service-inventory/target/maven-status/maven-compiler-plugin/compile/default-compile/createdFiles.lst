@@ -1,0 +1,8 @@
+com\easyshopping\inventoryservice\model\Inventory.class
+com\easyshopping\inventoryservice\InventoryServiceApplication.class
+com\easyshopping\inventoryservice\service\InventoryService.class
+com\easyshopping\inventoryservice\dto\InventoryResponse$InventoryResponseBuilder.class
+com\easyshopping\inventoryservice\dto\InventoryResponse.class
+com\easyshopping\inventoryservice\repository\InventoryRepository.class
+com\easyshopping\inventoryservice\util\DataLoader.class
+com\easyshopping\inventoryservice\controller\InventoryController.class

@@ -1,0 +1,109 @@
+{
+	"info": {
+		"_postman_id": "5ff78337-1f22-4fa1-bd07-bb4ac6c540c0",
+		"name": "Spring_ProductService",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "getProducts",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8080/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addProducts",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"Nothing Phone 2\",\r\n    \"description\":\"phone\",\r\n    \"price\":35000\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/products",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "addOrders",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"orderLineItemsDtoList\": [\r\n        {\r\n            \"id\": 21365209,\r\n            \"skuCode\": \"addorder\",\r\n            \"price\": 55,\r\n            \"quantity\": 10\r\n        },\r\n        {\r\n            \"id\": 2136225209,\r\n            \"skuCode\": \"2216634\",\r\n            \"price\": 55,\r\n            \"quantity\": 10\r\n        }\r\n    ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8081/order",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8081",
+					"path": [
+						"order"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getInventory",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:8082/inventory?skuCode=Nothi9ng",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8082",
+					"path": [
+						"inventory"
+					],
+					"query": [
+						{
+							"key": "skuCode",
+							"value": "Nothi9ng"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

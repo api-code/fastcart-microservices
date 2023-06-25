@@ -1,0 +1,10 @@
+com\easyshopping\dto\ProductResponse$ProductResponseBuilder.class
+com\easyshopping\dto\ProductRequest.class
+com\easyshopping\ProductServiceApplication.class
+com\easyshopping\controller\ProductController.class
+com\easyshopping\dto\ProductRequest$ProductRequestBuilder.class
+com\easyshopping\dto\ProductResponse.class
+com\easyshopping\model\Product$ProductBuilder.class
+com\easyshopping\model\Product.class
+com\easyshopping\repository\ProductRepository.class
+com\easyshopping\service\ProductService.class
