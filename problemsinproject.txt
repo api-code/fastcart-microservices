@@ -1,0 +1,59 @@
+<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+            <scope>provided</scope>
+        </dependency>
+
+
+<dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+
+
+
+{
+    "OrderLineItemsDto": [
+        {
+            "id": 213209,
+            "skuCode": "21634",
+            "price": 55,
+            "quantity": 10
+        },
+        {
+            "id": 2132209,
+            "skuCode": "52134",
+            "price": 55,
+            "quantity": 10
+        }
+    ]
+}
+
+
+
+
+{
+    "orderLineItemsDtoList": [
+        {
+            "id": 21365209,
+            "skuCode": "216634",
+            "price": 55,
+            "quantity": 10
+        }
+    ]
+}
+
+{
+    "orderLineItemsDtoList": [
+        {
+            "skuCode": "macbook",
+            "price": 5500,
+            "quantity": 2
+        },
+        {
+            "skuCode": "s21",
+            "price": 55,
+            "quantity": 2
+        }
+    ]
+}
