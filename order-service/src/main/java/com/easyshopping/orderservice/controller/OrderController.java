@@ -22,7 +22,6 @@ public class OrderController {
             return "Order placed successfully";
         }
         catch (Exception e){
-
             return "Order not placed successfully";
         }
 

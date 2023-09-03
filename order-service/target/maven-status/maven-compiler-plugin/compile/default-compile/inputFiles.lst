@@ -3,6 +3,8 @@ A:\APEKSHA\Projects\fastcart-microservices\order-service\src\main\java\com\easys
 A:\APEKSHA\Projects\fastcart-microservices\order-service\src\main\java\com\easyshopping\orderservice\model\Order.java
 A:\APEKSHA\Projects\fastcart-microservices\order-service\src\main\java\com\easyshopping\orderservice\repository\OrderRepository.java
 A:\APEKSHA\Projects\fastcart-microservices\order-service\src\main\java\com\easyshopping\orderservice\service\OrderService.java
+A:\APEKSHA\Projects\fastcart-microservices\order-service\src\main\java\com\easyshopping\orderservice\config\WebClientConfig.java
 A:\APEKSHA\Projects\fastcart-microservices\order-service\src\main\java\com\easyshopping\orderservice\model\OrderLineItems.java
 A:\APEKSHA\Projects\fastcart-microservices\order-service\src\main\java\com\easyshopping\orderservice\dto\OrderRequest.java
+A:\APEKSHA\Projects\fastcart-microservices\order-service\src\main\java\com\easyshopping\orderservice\dto\InventoryResponse.java
 A:\APEKSHA\Projects\fastcart-microservices\order-service\src\main\java\com\easyshopping\orderservice\controller\OrderController.java

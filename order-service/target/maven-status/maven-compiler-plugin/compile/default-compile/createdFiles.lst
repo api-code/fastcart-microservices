@@ -2,7 +2,10 @@ com\easyshopping\orderservice\controller\OrderController.class
 com\easyshopping\orderservice\dto\OrderLineItemsDto.class
 com\easyshopping\orderservice\service\OrderService.class
 com\easyshopping\orderservice\model\Order.class
+com\easyshopping\orderservice\config\WebClientConfig.class
 com\easyshopping\orderservice\repository\OrderRepository.class
+com\easyshopping\orderservice\dto\InventoryResponse$InventoryResponseBuilder.class
 com\easyshopping\orderservice\OrderServiceApplication.class
+com\easyshopping\orderservice\dto\InventoryResponse.class
 com\easyshopping\orderservice\dto\OrderRequest.class
 com\easyshopping\orderservice\model\OrderLineItems.class

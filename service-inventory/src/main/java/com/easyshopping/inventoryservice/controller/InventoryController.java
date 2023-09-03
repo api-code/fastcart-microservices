@@ -24,6 +24,8 @@ public class InventoryController {
     private final InventoryService inventoryService;
    
    /*
+   //problem -- in this method we are taking a single path variable for multiple request it will make
+   //multiples calls
     @GetMapping("/{sku-code}")
     @ResponseStatus(HttpStatus.OK)
     public boolean isInStock(@PathVariable("sku-code") String skuCode){
@@ -31,11 +33,13 @@ public class InventoryController {
         return inventoryService.isInStock(skuCode);
     }*/
     
+    //to solve above proble we will creating a list which contains all sku code as a parameter
+    //and we will pass a list
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
     public List<InventoryResponse> isInStock(@RequestParam List<String> skuCode) {
         System.out.println("Received inventory check request for skuCode: {}"+ skuCode);
-        return inventoryService.isInStock(skuCode); 
+        return inventoryService.isInStock(skuCode);
     }
 }
 

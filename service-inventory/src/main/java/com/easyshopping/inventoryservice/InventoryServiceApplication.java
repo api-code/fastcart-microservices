@@ -5,9 +5,13 @@ import com.easyshopping.inventoryservice.repository.InventoryRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+//import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 import org.springframework.context.annotation.Bean;
-
+//import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
+//@EnableEurekaClient
+//@EnableDiscoveryClient
+
 public class InventoryServiceApplication {
 
 	public static void main(String[] args) {
@@ -20,20 +24,14 @@ public class InventoryServiceApplication {
 		return args -> {
 			Inventory inventory = new Inventory();
 			inventory.setSkuCode("iphone_13");
-			inventory.setQuantity(100);
+			inventory.setQuantity(0);
 
 			Inventory inventory1 = new Inventory();
-			inventory.setSkuCode("Nothi9ng");
-			inventory.setQuantity(1000);
-
-//			Inventory inventory2 = new Inventory();
-//			inventory.setSkuCode("mac");
-//			inventory.setQuantity(10);
+			inventory.setSkuCode("Nothing");
+			inventory.setQuantity(100);
 
 			inventoryRepository.save(inventory);
 			inventoryRepository.save(inventory1);
-//			inventoryRepository.save(inventory2);
-
 		};
 	}
 }
