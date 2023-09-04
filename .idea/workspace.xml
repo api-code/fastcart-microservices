@@ -4,80 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e9e9956-ce41-46a9-897d-52534bc97bd7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/aws.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/java/com/easyshopping/discoveryserver/DiscoveryServerApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/discovery-server/src/test/java/com/fastcart/AppTest.java" afterDir="false" />
+    <list default="true" id="0e9e9956-ce41-46a9-897d-52534bc97bd7" name="Changes" comment="discovery server added to functionality">
+      <change afterPath="$PROJECT_DIR$/api-gateway/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/java/com/easyshopping/apigateway/ApiGatewayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-gateway/src/test/java/com/fastcart/AppTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/easyshopping/orderservice/OrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/easyshopping/orderservice/OrderServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/easyshopping/orderservice/config/WebClientConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/easyshopping/orderservice/config/WebClientConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/easyshopping/orderservice/controller/OrderController.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/easyshopping/orderservice/controller/OrderController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/easyshopping/orderservice/dto/InventoryResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/easyshopping/orderservice/dto/InventoryResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/easyshopping/orderservice/model/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/easyshopping/orderservice/model/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/easyshopping/orderservice/model/OrderLineItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/easyshopping/orderservice/model/OrderLineItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/java/com/easyshopping/orderservice/service/OrderService.java" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/java/com/easyshopping/orderservice/service/OrderService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/easyshopping/orderservice/OrderServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/easyshopping/orderservice/OrderServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/easyshopping/orderservice/controller/OrderController.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/easyshopping/orderservice/controller/OrderController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/easyshopping/orderservice/dto/OrderLineItemsDto.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/easyshopping/orderservice/dto/OrderLineItemsDto.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/easyshopping/orderservice/dto/OrderRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/easyshopping/orderservice/dto/OrderRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/easyshopping/orderservice/model/Order.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/easyshopping/orderservice/model/Order.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/easyshopping/orderservice/model/OrderLineItems.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/easyshopping/orderservice/model/OrderLineItems.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/easyshopping/orderservice/repository/OrderRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/easyshopping/orderservice/repository/OrderRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/easyshopping/orderservice/service/OrderService.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/easyshopping/orderservice/service/OrderService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/order-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/order-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/order-service-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/order-service-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/order-service/target/test-classes/com/easyshopping/orderservice/OrderServiceApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/test-classes/com/easyshopping/orderservice/OrderServiceApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/order-service/target/classes/com/easyshopping/orderservice/config/WebClientConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/order-service/target/classes/com/easyshopping/orderservice/config/WebClientConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/product-service/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/java/com/easyshopping/ProductServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/java/com/easyshopping/ProductServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application (2).properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/application (2).properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/product-service/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/ProductServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/ProductServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/dto/ProductRequest$ProductRequestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/dto/ProductRequest$ProductRequestBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/dto/ProductRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/dto/ProductRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/dto/ProductResponse$ProductResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/dto/ProductResponse$ProductResponseBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/dto/ProductResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/dto/ProductResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/model/Product$ProductBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/model/Product$ProductBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/model/Product.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/model/Product.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/repository/ProductRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/repository/ProductRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/service/ProductService.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/classes/com/easyshopping/service/ProductService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/product-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/product-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/product-service-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/product-service-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/product-service/target/test-classes/com/easyshopping/ProductServiceApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/product-service/target/test-classes/com/easyshopping/ProductServiceApplicationTests.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/src/main/java/com/easyshopping/inventoryservice/InventoryServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/src/main/java/com/easyshopping/inventoryservice/InventoryServiceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/src/main/java/com/easyshopping/inventoryservice/controller/InventoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/src/main/java/com/easyshopping/inventoryservice/controller/InventoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/src/main/java/com/easyshopping/inventoryservice/model/Inventory.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/src/main/java/com/easyshopping/inventoryservice/model/Inventory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/src/main/java/com/easyshopping/inventoryservice/repository/InventoryRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/src/main/java/com/easyshopping/inventoryservice/repository/InventoryRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/src/main/java/com/easyshopping/inventoryservice/util/DataLoader.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/src/main/java/com/easyshopping/inventoryservice/util/DataLoader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/target/classes/com/easyshopping/inventoryservice/InventoryServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/target/classes/com/easyshopping/inventoryservice/InventoryServiceApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/target/classes/com/easyshopping/inventoryservice/controller/InventoryController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/target/classes/com/easyshopping/inventoryservice/controller/InventoryController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/target/classes/com/easyshopping/inventoryservice/dto/InventoryResponse$InventoryResponseBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/target/classes/com/easyshopping/inventoryservice/dto/InventoryResponse$InventoryResponseBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/target/classes/com/easyshopping/inventoryservice/dto/InventoryResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/target/classes/com/easyshopping/inventoryservice/dto/InventoryResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/target/classes/com/easyshopping/inventoryservice/model/Inventory.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/target/classes/com/easyshopping/inventoryservice/model/Inventory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/target/classes/com/easyshopping/inventoryservice/repository/InventoryRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/target/classes/com/easyshopping/inventoryservice/repository/InventoryRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/target/classes/com/easyshopping/inventoryservice/service/InventoryService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/target/classes/com/easyshopping/inventoryservice/service/InventoryService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/target/classes/com/easyshopping/inventoryservice/util/DataLoader.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/target/classes/com/easyshopping/inventoryservice/util/DataLoader.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/target/inventory-service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/target/inventory-service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/target/inventory-service-1.0-SNAPSHOT.jar.original" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/target/inventory-service-1.0-SNAPSHOT.jar.original" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-inventory/target/test-classes/com/easyshopping/inventoryservice/InventoryServiceApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-inventory/target/test-classes/com/easyshopping/inventoryservice/InventoryServiceApplicationTests.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +89,20 @@
       <command value="mvn clean install" />
     </option>
   </component>
-  <component name="RunManager" selected="Application.DiscoveryServerApplication">
+  <component name="RunManager" selected="Application.ApiGatewayApplication">
+    <configuration name="ApiGatewayApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.easyshopping.apigateway.ApiGatewayApplication" />
+      <module name="api-gateway" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.easyshopping.apigateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="DiscoveryServerApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="ALTERNATIVE_JRE_PATH" value="JavaSE-17" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
@@ -215,19 +167,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fastcart.Main" />
-      <module name="discovery-server" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fastcart.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="OrderServiceApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.easyshopping.orderservice.OrderServiceApplication" />
       <module name="order-service" />
@@ -255,19 +194,19 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Application.ApiGatewayApplication" />
       <item itemvalue="Application.DiscoveryServerApplication" />
       <item itemvalue="Application.InventoryServiceApplication" />
-      <item itemvalue="Application.Main" />
       <item itemvalue="Application.OrderServiceApplication" />
       <item itemvalue="Application.ProductServiceApplication" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ApiGatewayApplication" />
         <item itemvalue="Application.ProductServiceApplication" />
-        <item itemvalue="Application.OrderServiceApplication" />
         <item itemvalue="Application.InventoryServiceApplication" />
+        <item itemvalue="Application.OrderServiceApplication" />
         <item itemvalue="Application.DiscoveryServerApplication" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -280,7 +219,19 @@
       <option name="presentableId" value="Default" />
       <updated>1687084030283</updated>
     </task>
+    <task id="LOCAL-00001" summary="discovery server added to functionality">
+      <created>1693763364615</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1693763364616</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="discovery server added to functionality" />
+    <option name="LAST_COMMIT_MESSAGE" value="discovery server added to functionality" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/fastcart_microservices$com_easyshopping_discoveryservice_DiscoveryServerApplication.ic" NAME="com.easyshopping.discoveryservice.DiscoveryServerApplication Coverage Results" MODIFIED="1688469620990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
