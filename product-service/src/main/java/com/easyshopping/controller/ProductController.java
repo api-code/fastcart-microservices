@@ -43,14 +43,14 @@ public class ProductController{
 	@PostMapping()
 	@ResponseStatus(value = HttpStatus.CREATED)
 	public void createProduct(@RequestBody ProductRequest productRequest) {
-//		try {
-//			System.out.println(productRequest);
+		try {
+			System.out.println(productRequest);
 		System.out.println("hiiiiiiiii");
 			productService.createProduct(productRequest);
-//		}
-//		catch(Exception e){
-//			e.printStackTrace();
-//		}
+		}
+		catch(Exception e){
+			e.printStackTrace();
+		}
 	}
 	
 	@GetMapping
