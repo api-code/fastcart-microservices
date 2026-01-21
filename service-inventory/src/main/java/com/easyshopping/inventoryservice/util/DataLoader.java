@@ -15,7 +15,7 @@ public class DataLoader implements CommandLineRunner {
     public void run(String... args) throws Exception {
         Inventory inventory = new Inventory();
         inventory.setSkuCode("macbook");
-        inventory.setQuantity(100);
+        inventory.setQuantity(0);
 
         Inventory inventory1 = new Inventory();
         inventory1.setSkuCode("s21");

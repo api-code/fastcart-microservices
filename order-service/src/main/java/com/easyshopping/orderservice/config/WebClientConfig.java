@@ -5,8 +5,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.reactive.function.client.WebClient;
 
-@Configuration //to maintain the configuration abput the web client
-
+@Configuration
 public class WebClientConfig {
     //defining a bin of type web client webClient-name of bin
     @Bean

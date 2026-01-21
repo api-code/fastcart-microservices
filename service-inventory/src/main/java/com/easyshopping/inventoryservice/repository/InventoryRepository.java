@@ -23,6 +23,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import java.util.List;
 
 public interface InventoryRepository extends JpaRepository<Inventory, Long> {
-    //it will return a list of inventory object
+
     List<Inventory> findBySkuCodeIn(List<String> skuCode);
 }

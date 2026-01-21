@@ -22,6 +22,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
 
 
 import org.testcontainers.junit.jupiter.Testcontainers;
+import org.testcontainers.shaded.com.fasterxml.jackson.core.JsonProcessingException;
 
 @SpringBootTest
 @Testcontainers
@@ -46,11 +47,11 @@ class ProductServiceApplicationTests {
 	}
 	
 	@Test
-	void shouldCreateProduct() throws Exception  {
+	void shouldCreateProduct() throws Exception {
 		ProductRequest productRequest = getProductRequest();
 		String productRequestString = objectMapper.writeValueAsString(productRequest);
 		
-		mocMvc.perform(MockMvcRequestBuilders.post("/products")
+		mocMvc.perform(MockMvcRequestBuilders.post("fastCart/products")
 					.contentType(MediaType.APPLICATION_JSON)
 					.content(productRequestString))
 				.andExpect(status().isCreated());

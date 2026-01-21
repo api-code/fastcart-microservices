@@ -15,7 +15,7 @@ import com.easyshopping.inventoryservice.service.InventoryService;
 import lombok.RequiredArgsConstructor;
 
 @RestController
-@RequestMapping("/inventory")
+@RequestMapping("/fastCart/inventory")
 @RequiredArgsConstructor
 
 @Component

@@ -1,7 +1,5 @@
 package com.easyshopping.controller;
 
-//import com.model.Product;
-
 import com.easyshopping.dto.ProductRequest;
 import com.easyshopping.dto.ProductResponse;
 import com.easyshopping.service.ProductService;
@@ -18,14 +16,17 @@ import java.util.Locale;
 
 
 @RestController
-@RequestMapping("/products")
+@RequestMapping("/fastCart/products")
 @RequiredArgsConstructor
 
 public class ProductController{
-	
+
+	@Autowired
+	private final ProductService productService;
+
 	@GetMapping("/")
 	public String hi() {
-		return "hii";
+		return "fast-cart microservice";
 		
 	}
 	@GetMapping("/hi")
@@ -38,8 +39,7 @@ public class ProductController{
 	}
 	
 	
-	@Autowired
-	private final ProductService productService;
+
 	@PostMapping()
 	@ResponseStatus(value = HttpStatus.CREATED)
 	public void createProduct(@RequestBody ProductRequest productRequest) {
